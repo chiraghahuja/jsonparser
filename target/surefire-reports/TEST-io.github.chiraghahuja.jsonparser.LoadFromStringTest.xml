@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="io.github.chiraghahuja.jsonparser.LoadFromStringTest" time="0.046" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/chirag/Downloads/code/jsonparser/target/test-classes:/Users/chirag/Downloads/code/jsonparser/target/classes:/Users/chirag/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.jar:/Users/chirag/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.0/jackson-databind-2.13.0.jar:/Users/chirag/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.0/jackson-annotations-2.13.0.jar:/Users/chirag/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/3.0.1/jakarta.xml.bind-api-3.0.1.jar:/Users/chirag/.m2/repository/com/sun/activation/jakarta.activation/2.0.1/jakarta.activation-2.0.1.jar:/Users/chirag/.m2/repository/org/glassfish/jaxb/jaxb-runtime/3.0.1/jaxb-runtime-3.0.1.jar:/Users/chirag/.m2/repository/org/glassfish/jaxb/jaxb-core/3.0.1/jaxb-core-3.0.1.jar:/Users/chirag/.m2/repository/org/glassfish/jaxb/txw2/3.0.1/txw2-3.0.1.jar:/Users/chirag/.m2/repository/com/sun/istack/istack-commons-runtime/4.0.1/istack-commons-runtime-4.0.1.jar:/Users/chirag/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.0/junit-jupiter-5.8.0.jar:/Users/chirag/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.0/junit-jupiter-api-5.8.0.jar:/Users/chirag/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/chirag/.m2/repository/org/junit/platform/junit-platform-commons/1.8.0/junit-platform-commons-1.8.0.jar:/Users/chirag/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/chirag/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.0/junit-jupiter-params-5.8.0.jar:/Users/chirag/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.0/junit-jupiter-engine-5.8.0.jar:/Users/chirag/.m2/repository/org/junit/platform/junit-platform-engine/1.8.0/junit-platform-engine-1.8.0.jar:"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="America/Vancouver"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="/Users/chirag/.sdkman/candidates/java/17.0.8-amzn/lib"/>
+    <property name="sun.java.command" value="/Users/chirag/Downloads/code/jsonparser/target/surefire/surefirebooter-20230814194144664_3.jar /Users/chirag/Downloads/code/jsonparser/target/surefire 2023-08-14T19-41-44_537-jvmRun1 surefire-20230814194144664_1tmp surefire_0-20230814194144664_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/chirag/Downloads/code/jsonparser/target/test-classes:/Users/chirag/Downloads/code/jsonparser/target/classes:/Users/chirag/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.jar:/Users/chirag/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.0/jackson-databind-2.13.0.jar:/Users/chirag/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.0/jackson-annotations-2.13.0.jar:/Users/chirag/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/3.0.1/jakarta.xml.bind-api-3.0.1.jar:/Users/chirag/.m2/repository/com/sun/activation/jakarta.activation/2.0.1/jakarta.activation-2.0.1.jar:/Users/chirag/.m2/repository/org/glassfish/jaxb/jaxb-runtime/3.0.1/jaxb-runtime-3.0.1.jar:/Users/chirag/.m2/repository/org/glassfish/jaxb/jaxb-core/3.0.1/jaxb-core-3.0.1.jar:/Users/chirag/.m2/repository/org/glassfish/jaxb/txw2/3.0.1/txw2-3.0.1.jar:/Users/chirag/.m2/repository/com/sun/istack/istack-commons-runtime/4.0.1/istack-commons-runtime-4.0.1.jar:/Users/chirag/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.0/junit-jupiter-5.8.0.jar:/Users/chirag/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.0/junit-jupiter-api-5.8.0.jar:/Users/chirag/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/chirag/.m2/repository/org/junit/platform/junit-platform-commons/1.8.0/junit-platform-commons-1.8.0.jar:/Users/chirag/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/chirag/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.0/junit-jupiter-params-5.8.0.jar:/Users/chirag/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.0/junit-jupiter-engine-5.8.0.jar:/Users/chirag/.m2/repository/org/junit/platform/junit-platform-engine/1.8.0/junit-platform-engine-1.8.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/chirag"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="/Users/chirag/.sdkman/candidates/java/17.0.8-amzn"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/chirag/Downloads/code/jsonparser"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/chirag/Downloads/code/jsonparser/target/surefire/surefirebooter-20230814194144664_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.8+7-LTS"/>
+    <property name="user.name" value="chirag"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-17.0.8.7.1"/>
+    <property name="localRepository" value="/Users/chirag/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-17/issues/"/>
+    <property name="java.io.tmpdir" value="/var/folders/0f/d24x1tts35xgfbhgpj08w04c0000gn/T/"/>
+    <property name="java.version" value="17.0.8"/>
+    <property name="user.dir" value="/Users/chirag/Downloads/code/jsonparser"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/chirag/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="17.0.8+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testLoadFromStringWithInvalidJson" classname="io.github.chiraghahuja.jsonparser.LoadFromStringTest" time="0.002"/>
+  <testcase name="testLoadFromStringWithEmptyJson" classname="io.github.chiraghahuja.jsonparser.LoadFromStringTest" time="0.002"/>
+  <testcase name="testLoadFromStringWithNullValues" classname="io.github.chiraghahuja.jsonparser.LoadFromStringTest" time="0.005"/>
+  <testcase name="testLoadFromStringWithValidJson" classname="io.github.chiraghahuja.jsonparser.LoadFromStringTest" time="0.001"/>
+  <testcase name="testLoadFromStringWithNonObjectArray" classname="io.github.chiraghahuja.jsonparser.LoadFromStringTest" time="0.002"/>
+  <testcase name="testLoadFromStringWithEscapedCharacters" classname="io.github.chiraghahuja.jsonparser.LoadFromStringTest" time="0.002"/>
+  <testcase name="testLoadFromStringWithNestedJson" classname="io.github.chiraghahuja.jsonparser.LoadFromStringTest" time="0.001"/>
+  <testcase name="testLoadFromStringWithEmptyJsonArray" classname="io.github.chiraghahuja.jsonparser.LoadFromStringTest" time="0.002"/>
+  <testcase name="testLoadFromStringWithSpecialCharacters" classname="io.github.chiraghahuja.jsonparser.LoadFromStringTest" time="0.001"/>
+  <testcase name="testLoadFromStringWithMalformedJson" classname="io.github.chiraghahuja.jsonparser.LoadFromStringTest" time="0.002"/>
+  <testcase name="testLoadFromStringWithBooleanValues" classname="io.github.chiraghahuja.jsonparser.LoadFromStringTest" time="0.002"/>
+</testsuite>
