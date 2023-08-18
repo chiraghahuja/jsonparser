@@ -46,7 +46,7 @@ public class JsonUtils  {
      * @return a list of JsonNode objects representing the JSON structure
      * @throws InvalidJsonFormatException if the JSON string is not formatted correctly
      *
-     * @apiNote Example usage:
+     * Example usage:
      * <pre>{@code
      * // Example 1: Parsing a JSON object
      * String jsonObjectString = "{\"name\": \"John\", \"age\": 30, \"city\": \"New York\"}";
@@ -109,7 +109,7 @@ public class JsonUtils  {
 
     /**
      * Serializes a list of Java objects to a JSON string.
-     *
+     * @param objects the list of objects to serialize
      * @return the JSON string representation of the list of objects
      * @throws JsonProcessingException if an error occurs during serialization
      */
@@ -127,7 +127,7 @@ public class JsonUtils  {
      * @throws IOException                if an error occurs while reading the JSON file
      * @throws InvalidJsonFormatException if the JSON content is not formatted correctly
      *
-     * @apiNote Example usage:
+     * Example usage:
      * <pre>{@code
      * // Example: Parsing a JSON file
      * String filePath = "path/to/your/json/file.json";
@@ -164,7 +164,7 @@ public class JsonUtils  {
      * @param filePath  the file path to write the JSON content
      * @throws IOException if an error occurs while writing the file
      *
-     * @apiNote Example usage:
+     * Example usage:
      * <pre>{@code
      * // Example: Writing JSON to a file
      * List<Person> persons = Arrays.asList(
